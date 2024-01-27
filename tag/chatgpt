@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="io-grey-mode">
+<head> 
+<script>
+    var default_c = "io-grey-mode";
+    var night = document.cookie.replace(/(?:(?:^|.*;\s*)io_night_mode\s*\=\s*([^;]*).*$)|^.*$/, "$1"); 
+    try {
+        if (night === "0" || (!night && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.documentElement.classList.add("io-black-mode");
+            document.documentElement.classList.remove(default_c);
+        } else {
+            document.documentElement.classList.remove("io-black-mode");
+            document.documentElement.classList.add(default_c);
+        }
+    } catch (_) {}
+</script><meta charset="UTF-8">
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ChatGPT | Titokdh跨境导航网</title>
+<meta name="theme-color" content="#f9f9f9" />
+<meta name="keywords" content="ChatGPT,Titokdh跨境导航网" />
+<meta name="description" content="JYTK跨境导航网是一站式TikTok运营资源链接导航网站，面向TikTok运营者以及跨境出海卖家，提供TikTok运营、学习教程、工具、直播、变现、数据分析、广告投放、社媒营销等一站式的TikTok运营必备工具，TIKTOK优质资源尽在JYTK跨境导航网。" />
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://telegeam.github.io/titokdh/tag/chatgpt"/> 
+<meta property="og:title" content="ChatGPT | Titokdh跨境导航网">
+<meta property="og:description" content="JYTK跨境导航网是一站式TikTok运营资源链接导航网站，面向TikTok运营者以及跨境出海卖家，提供TikTok运营、学习教程、工具、直播、变现、数据分析、广告投放、社媒营销等一站式的TikTok运营必备工具，TIKTOK优质资源尽在JYTK跨境导航网。">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="Titokdh跨境导航网">
+<link rel="shortcut icon" href="../wp-content/uploads/2023/07/bitbug_favicon.ico">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2023/07/80.png">
+<!--[if IE]><script src="https://telegeam.github.io/titokdh/wp-content/themes/onenav/js/html5.min.js"></script><![endif]-->
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://at.alicdn.com/' />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.14.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="https://www.googletagmanager.com/gtag/js?id=G-3XWRCY1RK9"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.14.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-3XWRCY1RK9',
+														];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-3XWRCY1RK9', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='iconfont-css' href='../wp-content/themes/onenav/css/iconfont.css@ver=4.0510' type='text/css' media='all' />
+<link rel='stylesheet' id='iconfont-io-1-css' href='https://at.alicdn.com/t/font_1620678_18rbnd2homc.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/onenav/css/bootstrap.min.css@ver=4.0510' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='../wp-content/themes/onenav/css/style.min.css@ver=4.0510' type='text/css' media='all' />
+<script type="text/javascript" src="../wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js@ver=8.14.1" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/telegeam.github.io/titokdh","hash_tracking":"false","ua":"","v4_id":"G-3XWRCY1RK9"};/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/jquery.min.js@ver=4.0510" id="jquery-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+/* <![CDATA[ */ 
+        function loadFunc(func) {if (document.all){window.attachEvent("onload",func);}else{window.addEventListener("load",func,false);}}   
+        /* ]]]]><![CDATA[> */
+/* ]]> */
+</script>
+<style>.customize-width{max-width:1900px}.sidebar-nav{width:220px}@media (min-width: 768px){.main-content{margin-left:220px;}.main-content .page-header{left:220px;}}</style><link rel="icon" href="https://telegeam.github.io/titokdh/wp-content/uploads/2023/07/cropped-f-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://telegeam.github.io/titokdh/wp-content/uploads/2023/07/cropped-f-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://telegeam.github.io/titokdh/wp-content/uploads/2023/07/cropped-f-180x180.png" />
+<meta name="msapplication-TileImage" content="https://telegeam.github.io/titokdh/wp-content/uploads/2023/07/cropped-f-270x270.png" />
+<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style><!-- 自定义代码 -->
+<!-- end 自定义代码 -->
+</head> 
+<body class="archive tag tag-chatgpt tag-65 sidebar_no">
+        <div id="sidebar" class="sticky sidebar-nav fade">
+            <div class="modal-dialog h-100  sidebar-nav-inner">
+                <div class="sidebar-logo border-bottom border-color">
+                    <!-- logo -->
+                    <div class="logo overflow-hidden">
+                                                <a href="https://telegeam.github.io/titokdh" class="logo-expanded">
+                            <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/黑色字体.png" height="40" class="logo-light" alt="Titokdh跨境导航网">
+                            <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/白色字体.png" height="40" class="logo-dark d-none" alt="Titokdh跨境导航网">
+                        </a>
+                        <a href="https://telegeam.github.io/titokdh" class="logo-collapsed">
+                            <img src="../wp-content/uploads/2023/07/1.png" height="40" class="logo-light" alt="Titokdh跨境导航网">
+                            <img src="../wp-content/uploads/2023/07/80.png" height="40" class="logo-dark d-none" alt="Titokdh跨境导航网">
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                </div>
+                <div class="sidebar-menu flex-fill">
+                    <div class="sidebar-scroll" >
+                        <div class="sidebar-menu-inner">
+                            <ul> 
+                                                                                                        <li class="sidebar-item">
+                                            <a href="https://telegeam.github.io/titokdh/#term-5" class="">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>TIKTOK常用</span>
+                                            </a>
+                                        </li> 
+                                                                            <li class="sidebar-item">
+                                            <a href="https://telegeam.github.io/titokdh/#term-49" class="">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>TIKTOK官方</span>
+                                            </a>
+                                        </li> 
+                                                                            <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-28" class="" data-change="https://telegeam.github.io/titokdh/#term-28">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>视频剪辑</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-28-31" class=""><span>视频下载</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-28-29" class=""><span>剪辑软件</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-28-30" class=""><span>翻译工具</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item sidebar-show">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-43" class="" data-change="https://telegeam.github.io/titokdh/#term-43">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>AI工具箱</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul style="display:block">
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-43-44" class=""><span>聊天AI</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-43-46" class=""><span>视频AI</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-43-45" class=""><span>写作AI</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-43-47" class=""><span>绘画AI</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-43-48" class=""><span>音频AI</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-89" class="" data-change="https://telegeam.github.io/titokdh/#term-89">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>ChatGPT</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-89-92" class=""><span>新手指南</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-89-91" class=""><span>常用工具</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-23" class="" data-change="https://telegeam.github.io/titokdh/#term-23">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>素材来源</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-23-24" class=""><span>视频素材</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-23-25" class=""><span>图片素材</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-23-26" class=""><span>音乐配音</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-23-27" class=""><span>动画&amp;GIF</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                            <a href="https://telegeam.github.io/titokdh/#term-42" class="">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>社交媒体</span>
+                                            </a>
+                                        </li> 
+                                                                            <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-51" class="" data-change="https://telegeam.github.io/titokdh/#term-51">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>网络资源</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-51-50" class=""><span>接码平台</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-51-21" class=""><span>邮箱域名</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-51-22" class=""><span>账号交易</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item sidebar-show">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-15" class="" data-change="https://telegeam.github.io/titokdh/#term-15">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>视频运营</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul style="display:block">
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-15-16" class=""><span>ip检测</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-15-17" class=""><span>数据分析</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-15-18" class=""><span>灵感创意</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-15-20" class=""><span>互传短链</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-15-19" class=""><span>标签标题</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-33" class="" data-change="https://telegeam.github.io/titokdh/#term-33">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>TK小店</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-34" class=""><span>小店选品</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-37" class=""><span>货源采集</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-35" class=""><span>小店ERP</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-36" class=""><span>小店支付</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-39" class=""><span>小店物流</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-33-38" class=""><span>分销平台</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-2" class="" data-change="https://telegeam.github.io/titokdh/#term-2">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>独立站</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-3" class=""><span>独立站搭建</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-8" class=""><span>独立站选品</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-10" class=""><span>独立站收款</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-11" class=""><span>独立站物流</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-9" class=""><span>电商平台</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-12" class=""><span>独立站广告分析</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-13" class=""><span>独立站社交营销</span></a>
+                                                </li>
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-2-14" class=""><span>独立站网红营销</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                                                        <li class="sidebar-item">
+                                                                                        <a href="https://telegeam.github.io/titokdh/#term-40" class="" data-change="https://telegeam.github.io/titokdh/#term-40">
+                                                <i class="iconfont icon-category icon-fw icon-lg"></i>
+                                                <span>广告投放</span>
+                                            </a>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                            <ul >
+                                             
+                                                <li>
+                                                    <a href="https://telegeam.github.io/titokdh/#term-40-41" class=""><span>TIKTOK广告投放</span></a>
+                                                </li>
+                                                                                        </ul>
+                                        </li>
+                                 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top py-2 border-color">
+                    <div class="flex-bottom">
+                        <ul> 
+                             
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content flex-fill">    <div class="big-header-banner header-nav">
+        <div id="header" class="page-header sticky">
+            <div class="navbar navbar-expand-md">
+                <div class="container-fluid p-0 position-relative">
+                    <div class="position-absolute w-100 text-center">
+                        <a href="https://telegeam.github.io/titokdh" class="navbar-brand d-md-none m-0" title="Titokdh跨境导航网">
+                            <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/黑色字体.png" class="logo-light" alt="Titokdh跨境导航网" height="30">
+                            <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/白色字体.png" class="logo-dark d-none" alt="Titokdh跨境导航网" height="30">
+                        </a>
+                    </div>
+                    <div class="nav-item d-md-none mobile-menu py-2 position-relative"><a href="javascript:" id="sidebar-switch" data-toggle="modal" data-target="#sidebar"><i class="iconfont icon-classification icon-lg"></i></a></div>                    <div class="collapse navbar-collapse order-2 order-md-1">
+                        <div class="header-mini-btn">
+                            <label>
+                                <input id="mini-button" type="checkbox" checked="checked">
+                                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> 
+                                    <path class="line--1" d="M0 40h62c18 0 18-20-17 5L31 55"></path>
+                                    <path class="line--2" d="M0 50h80"></path>
+                                    <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45"></path>
+                                </svg>
+                            </label>
+                        
+                        </div>
+                                                <!-- 天气 -->
+                        <div class="weather">
+                            <div id="he-plugin-simple" style="display: contents;"></div>
+                            <script>WIDGET = {CONFIG: {"modules": "12034","background": "5","tmpColor": "888","tmpSize": "14","cityColor": "888","citySize": "14","aqiSize": "14","weatherIconSize": "24","alertIconSize": "18","padding": "10px 10px 10px 10px","shadow": "1","language": "auto","fixed": "false","vertical": "middle","horizontal": "left","key": "a922adf8928b4ac1ae7a31ae7375e191"}}</script>
+                            <script>
+                            loadFunc(function() {
+                                let script = document.createElement("script");
+                                script.setAttribute("async", "");
+                                script.src = "//widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0";
+                                document.body.appendChild(script);
+                            });
+                            </script>
+                        </div>
+                        <!-- 天气 end -->
+                                                <ul class="navbar-nav navbar-top site-menu mr-4">
+                            <li id="menu-item-1124" class="menu-item menu-item-type-taxonomy menu-item-object-favorites menu-item-1124"><a href="https://telegeam.github.io/titokdh/favorites/tiktok%e5%b8%b8%e7%94%a8%e6%8e%a8%e8%8d%90">
+        <i class="iconfont icon-category icon-fw icon-lg"></i>
+                <span>TIKTOK常用</span></a></li>
+ 
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-menu text-xs order-1 order-md-2 position-relative">
+                                                                            <li class="nav-login ml-3 ml-md-4">
+                                <a href="../wp-login.php@redirect_to=https%253A%252F%252Fjytk178.com%252Ftag%252Fchatgpt" title="登录"><i class="iconfont icon-user icon-lg"></i></a>
+                            </li>
+                                                                        <li class="nav-search ml-3 ml-md-4">
+                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i class="iconfont icon-search icon-lg"></i></a>
+                        </li>
+                                                                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="placeholder"></div>
+            </div>
+<div class="header-big  bg-gradual css-color mb-4" style="background-image: linear-gradient(45deg, #ff3a2b 0%, #ed17de 50%, #f4275e 100%);"> 
+<div class="s-search">
+<div id="search" class="s-search mx-auto">
+        <div id="search-list-menu" class="">
+        <div class="s-type text-center">
+            <div class="s-type-list big tab-auto-scrollbar overflow-x-auto">
+                <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
+                <label for="type-big-zhannei" class="active" data-page="home" data-id="group-z"><span>站内</span></label><label for="type-baidu"  data-page="home" data-id="group-a"><span>常用</span></label><label for="type-baidu1"  data-page="home" data-id="group-b"><span>搜索</span></label><label for="type-br"  data-page="home" data-id="group-c"><span>工具</span></label><label for="type-zhihu"  data-page="home" data-id="group-d"><span>社区</span></label><label for="type-taobao1"  data-page="home" data-id="group-e"><span>生活</span></label>            </div>
+        </div>
+    </div>
+    <form action="https://telegeam.github.io/titokdh?s=" method="get" target="_blank" class="super-search-fm">
+        <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="输入关键字搜索" style="outline:0" autocomplete="off" data-status="true">
+        <button type="submit" id="btn_search"><i class="iconfont icon-search"></i></button>
+    </form> 
+    <div id="search-list" class="hide-type-list">
+                    <div class="search-group justify-content-center group-z s-current">
+                <ul class="search-type tab-auto-scrollbar overflow-x-auto">
+                    <li ><input checked="checked" hidden="" type="radio" name="type" data-page="home" id="type-big-zhannei" value="https://telegeam.github.io/titokdh/?post_type=sites&amp;s=" data-placeholder="站内搜索"></li>
+                                    </ul>
+            </div>
+                    <div class="search-group justify-content-center group-a "><ul class="search-type tab-auto-scrollbar overflow-x-auto"><li><input hidden type="radio" name="type" data-page="home" id="type-baidu" value="https://www.baidu.com/s?wd=%s%" data-placeholder="百度一下"><label for="type-baidu"><span class="text-muted">百度</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-google" value="https://www.google.com/search?q=%s%" data-placeholder="谷歌两下"><label for="type-google"><span class="text-muted">Google</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-zhannei" value="http://telegeam.github.io/titokdh/?post_type=sites&s=%s%" data-placeholder="站内搜索"><label for="type-zhannei"><span class="text-muted">站内</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-taobao" value="https://s.taobao.com/search?q=%s%" data-placeholder="淘宝"><label for="type-taobao"><span class="text-muted">淘宝</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-bing" value="https://cn.bing.com/search?q=%s%" data-placeholder="微软Bing搜索"><label for="type-bing"><span class="text-muted">Bing</span></label></li></ul></div><div class="search-group justify-content-center group-b "><ul class="search-type tab-auto-scrollbar overflow-x-auto"><li><input hidden type="radio" name="type" data-page="home" id="type-baidu1" value="https://www.baidu.com/s?wd=%s%" data-placeholder="百度一下"><label for="type-baidu1"><span class="text-muted">百度</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-google1" value="https://www.google.com/search?q=%s%" data-placeholder="谷歌两下"><label for="type-google1"><span class="text-muted">Google</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-360" value="https://www.so.com/s?q=%s%" data-placeholder="360好搜"><label for="type-360"><span class="text-muted">360</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-sogo" value="https://www.sogou.com/web?query=%s%" data-placeholder="搜狗搜索"><label for="type-sogo"><span class="text-muted">搜狗</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-bing1" value="https://cn.bing.com/search?q=%s%" data-placeholder="微软Bing搜索"><label for="type-bing1"><span class="text-muted">Bing</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-sm" value="https://yz.m.sm.cn/s?q=%s%" data-placeholder="UC移动端搜索"><label for="type-sm"><span class="text-muted">神马</span></label></li></ul></div><div class="search-group justify-content-center group-c "><ul class="search-type tab-auto-scrollbar overflow-x-auto"><li><input hidden type="radio" name="type" data-page="home" id="type-br" value="https://seo.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="type-br"><span class="text-muted">权重查询</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-links" value="https://ahrefs.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="type-links"><span class="text-muted">友链检测</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-icp" value="https://icp.5118.com/domain/%s%" data-placeholder="请输入网址(不带https://)"><label for="type-icp"><span class="text-muted">备案查询</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-seo" value="https://seo.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="type-seo"><span class="text-muted">SEO查询</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-ciku" value="https://www.5118.com/seo/newrelated/%s%" data-placeholder="请输入关键词"><label for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-51key" value="https://so.5118.com/all/%s%" data-placeholder="请输入关键词"><label for="type-51key"><span class="text-muted">素材搜索</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-51kt" value="https://www.kt1.com/%s%" data-placeholder="请输入关键词"><label for="type-51kt"><span class="text-muted">大数据词云</span></label></li></ul></div><div class="search-group justify-content-center group-d "><ul class="search-type tab-auto-scrollbar overflow-x-auto"><li><input hidden type="radio" name="type" data-page="home" id="type-zhihu" value="https://www.zhihu.com/search?type=content&q=%s%" data-placeholder="知乎"><label for="type-zhihu"><span class="text-muted">知乎</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=%s%" data-placeholder="微信"><label for="type-wechat"><span class="text-muted">微信</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-weibo" value="https://s.weibo.com/weibo/%s%" data-placeholder="微博"><label for="type-weibo"><span class="text-muted">微博</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-douban" value="https://www.douban.com/search?q=%s%" data-placeholder="豆瓣"><label for="type-douban"><span class="text-muted">豆瓣</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-why" value="https://ask.seowhy.com/search/?q=%s%" data-placeholder="SEO问答社区"><label for="type-why"><span class="text-muted">搜外问答</span></label></li></ul></div><div class="search-group justify-content-center group-e "><ul class="search-type tab-auto-scrollbar overflow-x-auto"><li><input hidden type="radio" name="type" data-page="home" id="type-taobao1" value="https://s.taobao.com/search?q=%s%" data-placeholder="淘宝"><label for="type-taobao1"><span class="text-muted">淘宝</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-jd" value="https://search.jd.com/Search?keyword=%s%" data-placeholder="京东"><label for="type-jd"><span class="text-muted">京东</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-xiachufang" value="https://www.xiachufang.com/search/?keyword=%s%" data-placeholder="下厨房"><label for="type-xiachufang"><span class="text-muted">下厨房</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&s=%s%" data-placeholder="香哈菜谱"><label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-12306" value="https://www.12306.cn/?%s%" data-placeholder="12306"><label for="type-12306"><span class="text-muted">12306</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-kd100" value="https://www.kuaidi100.com/?%s%" data-placeholder="快递100"><label for="type-kd100"><span class="text-muted">快递100</span></label></li><li><input hidden type="radio" name="type" data-page="home" id="type-qunar" value="https://www.qunar.com/?%s%" data-placeholder="去哪儿"><label for="type-qunar"><span class="text-muted">去哪儿</span></label></li></ul></div>    </div>
+    <div class="card search-smart-tips" style="display: none">
+        <ul></ul>
+    </div>
+</div>
+</div>
+</div>  <div id="content" class="container is_category">
+    <div class="content-wrap">
+        <div class="content-layout">
+            
+<div class="site-title mb-4">
+ 
+    <h1 class="text-gray text-lg mb-2">
+        <i class="site-tag iconfont icon-tag icon-lg mr-1" id="ChatGPT"></i>标签：ChatGPT    </h1>
+    <p class="text-secondary text-sm">
+            </p>
+ 
+
+</div>
+<div class="cat_list">
+            <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1157.html" title="如何利用ChatGPT助力TikTok运营" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/05/51.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1157.html" title="如何利用ChatGPT助力TikTok运营" class="list-title text-lg overflowClip_2">如何利用ChatGPT助力TikTok运营</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">最近很火的AI工具——ChatGPT或许提供了一个潜在解决方案。作为一种自然语言处理的人工智能模型，ChatGPT能够根据用户提供的提示或问题生成文本。通过利用ChatG...</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="https://telegeam.github.io/titokdh/ai%e8%b5%84%e8%ae%af">AI资讯</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">10个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+        <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1152.html" title="ChatGPT中文提示词（Prompt）指南！分享上百个ChatGPT中文调教指令/角色预设" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/05/40769792.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1152.html" title="ChatGPT中文提示词（Prompt）指南！分享上百个ChatGPT中文调教指令/角色预设" class="list-title text-lg overflowClip_2">ChatGPT中文提示词（Prompt）指南！分享上百个ChatGPT中文调教指令/角色预设</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">有时候你问ChatGPT问题，总是得不到你自己想要的答案，总是差那么一点意思，这可能是因为你指令/提示词（Prompt）指向性不够强，想要更好低调教ChatGPT，让Ch...</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="https://telegeam.github.io/titokdh/ai%e8%b5%84%e8%ae%af">AI资讯</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">10个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+        <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1163.html" title="ChatGPT API key 获取方法！" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/05/微信截图_20230507144634.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1163.html" title="ChatGPT API key 获取方法！" class="list-title text-lg overflowClip_2">ChatGPT API key 获取方法！</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">ChatGPT API key 获取方法！</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="../chatgpt">ChatGPT</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">10个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+        <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1243.html" title="如何使用ChatGPT赚钱和变现的16种方法和途径：创意和机会的探索" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/05/13.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1243.html" title="如何使用ChatGPT赚钱和变现的16种方法和途径：创意和机会的探索" class="list-title text-lg overflowClip_2">如何使用ChatGPT赚钱和变现的16种方法和途径：创意和机会的探索</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">如何使用ChatGPT赚钱和变现的16种方法和途径：创意和机会的探索</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="https://telegeam.github.io/titokdh/ai%e8%b5%84%e8%ae%af">AI资讯</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">10个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+        <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1230.html" title="ChatGPT 常见错误原因及解决方案" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/05/微信截图_20230508150419.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1230.html" title="ChatGPT 常见错误原因及解决方案" class="list-title text-lg overflowClip_2">ChatGPT 常见错误原因及解决方案</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">ChatGPT 常见错误原因及解决方案</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="https://telegeam.github.io/titokdh/ai%e8%b5%84%e8%ae%af">AI资讯</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">10个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+        <div class="list-grid list-grid-padding">
+        <div class="list-item card">
+            <div class="media media-3x2 rounded col-4 col-md-4">
+                                <a class="media-content" href="../1074.html" title="ChatGPT详细注册教程，解决ChatGPT国外手机号认证问题!" data-src="https://telegeam.github.io/titokdh/wp-content/uploads/2023/03/gpt.jpg"></a>
+                            </div>
+            <div class="list-content">
+                <div class="list-body">
+                    <h2>
+                        <a href="../1074.html" title="ChatGPT详细注册教程，解决ChatGPT国外手机号认证问题!" class="list-title text-lg overflowClip_2">ChatGPT详细注册教程，解决ChatGPT国外手机号认证问题!</a>
+                    </h2>
+                    <div class="list-desc d-none d-md-block text-sm text-secondary my-3">
+                        <div class="overflowClip_2 ">ChatGPT详细注册教程，解决ChatGPT国外手机号认证问题!</div>
+                    </div>
+                </div>
+                <div class="list-footer">
+                    <div class="d-flex flex-fill align-items-center text-muted text-xs">
+                                                <span><i class="iconfont icon-classification"></i>
+                            <a href="https://telegeam.github.io/titokdh/ai%e8%b5%84%e8%ae%af">AI资讯</a>
+                        </span>
+                                            
+                        <div class="flex-fill"></div>
+                        <div>
+                            <time class="mx-1">11个月前</time>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>                            
+    </div> 
+    </div>
+<div class="posts-nav">
+    </div>
+        </div> 
+    </div>
+	</div> 
+ 
+<div class="main-footer footer-stick container container-fluid customize-width pt-4 pb-3 footer-type-big">
+
+    <div class="footer-inner card rounded-xl m-0">
+        <div class="footer-text card-body text-muted text-center text-md-left">
+                        <div class="row my-4">
+                                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <a class="footer-logo" href="https://telegeam.github.io/titokdh" title="Titokdh跨境导航网">
+                        <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/黑色字体.png" class="logo-light mb-3" alt="Titokdh跨境导航网" height="40">
+                        <img src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/07/白色字体.png" class="logo-dark d-none mb-3" alt="Titokdh跨境导航网" height="40">
+                    </a>
+                    <div class="text-sm">JYTK跨境导航网是一站式TikTok运营资源链接导航网站，面向TikTok运营者以及跨境出海卖家，提供TikTok运营、学习教程、工具、直播、变现、数据分析、广告投放、社媒营销等一站式的TikTok运营必备工具，TIKTOK优质资源尽在JYTK跨境导航网。</div>
+                </div>
+                                <div class="col-12 col-md-5 mb-4 mb-md-0"> 
+                                                            <div class="footer-social">
+                        <a class="rounded-circle bg-light qr-img" href="javascript:;" data-toggle="tooltip" data-placement="top" data-html="true" title="<img src='http://telegeam.github.io/titokdh/wp-content/uploads/2023/04/站长微信.png' height='100' width='100'>">
+                                    <i class="iconfont icon-wechat"></i>
+                                </a>                    </div>
+                </div>
+                                <div class="col-12 col-md-3 text-md-right mb-4 mb-md-0">
+                                    <div class="footer-mini-img" data-toggle="tooltip" title="扫码加微信">
+                        <p class="bg-light rounded-lg p-1">
+                            <img class=" " src="http://telegeam.github.io/titokdh/wp-content/uploads/2023/04/站长微信.png" alt="扫码加微信JYTK跨境导航网">
+                        </p>
+                        <span class="text-muted text-ss mt-2">扫码加微信</span>
+                    </div>
+                                </div>
+                            </div>
+                        <div class="footer-copyright text-xs">
+            Copyright @copy 2023 <a href="../index.html">Titokdh跨境导航网</a> <a href="https://beian.miit.gov.cn/">粤ICP备2023060380号</a>    声明：网站上的服务均为第三方提供，与JYTK跨境导航网无关。请用户注意甄别服务质量，避免上当受骗！&nbsp;&nbsp;            </div>
+        </div>
+    </div>
+</div>
+</div><!-- main-content end -->
+
+<footer>
+    <div id="footer-tools" class="d-flex flex-column">
+        <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
+            <i class="iconfont icon-to-up"></i>
+        </a>
+        <a class="btn rounded-circle custom-tool0 m-1 qr-img" href="javascript:;" data-toggle="tooltip" data-html="true" data-placement="left" title="<img src='http://telegeam.github.io/titokdh/wp-content/uploads/2023/04/站长微信.png' height='100' width='100'>">
+                    <i class="iconfont icon-wechat"></i>
+                </a>                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1" rel="search">
+            <i class="iconfont icon-search"></i>
+        </a>
+                                        <a href="javascript:" id="switch-mode" class="btn rounded-circle switch-dark-mode m-1" data-toggle="tooltip" data-placement="left" title="夜间模式">
+            <i class="mode-ico iconfont icon-light"></i>
+        </a>
+            </div>
+</footer>
+  
+<div class="modal fade search-modal" id="search-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">  
+            <div class="modal-body">
+                 
+<div id="search" class="s-search mx-auto my-4">
+    <div id="search-list" class="hide-type-list">
+        <div class="s-type">
+            <span></span>
+            <div class="s-type-list">
+                <label for="m_type-baidu" data-page="home" data-id="group-a">常用</label><label for="m_type-baidu1" data-page="home" data-id="group-b">搜索</label><label for="m_type-br" data-page="home" data-id="group-c">工具</label><label for="m_type-zhihu" data-page="home" data-id="group-d">社区</label><label for="m_type-taobao1" data-page="home" data-id="group-e">生活</label>            </div>
+        </div>
+        <div class="search-group group-a"><span class="type-text text-muted">常用</span><ul class="search-type"><li><input checked="checked" hidden type="radio" name="type2" data-page="home" id="m_type-baidu" value="https://www.baidu.com/s?wd=%s%" data-placeholder="百度一下"><label for="m_type-baidu"><span class="text-muted">百度</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-google" value="https://www.google.com/search?q=%s%" data-placeholder="谷歌两下"><label for="m_type-google"><span class="text-muted">Google</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-zhannei" value="http://telegeam.github.io/titokdh/?post_type=sites&s=%s%" data-placeholder="站内搜索"><label for="m_type-zhannei"><span class="text-muted">站内</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-taobao" value="https://s.taobao.com/search?q=%s%" data-placeholder="淘宝"><label for="m_type-taobao"><span class="text-muted">淘宝</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-bing" value="https://cn.bing.com/search?q=%s%" data-placeholder="微软Bing搜索"><label for="m_type-bing"><span class="text-muted">Bing</span></label></li></ul></div><div class="search-group group-b"><span class="type-text text-muted">搜索</span><ul class="search-type"><li><input hidden type="radio" name="type2" data-page="home" id="m_type-baidu1" value="https://www.baidu.com/s?wd=%s%" data-placeholder="百度一下"><label for="m_type-baidu1"><span class="text-muted">百度</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-google1" value="https://www.google.com/search?q=%s%" data-placeholder="谷歌两下"><label for="m_type-google1"><span class="text-muted">Google</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-360" value="https://www.so.com/s?q=%s%" data-placeholder="360好搜"><label for="m_type-360"><span class="text-muted">360</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-sogo" value="https://www.sogou.com/web?query=%s%" data-placeholder="搜狗搜索"><label for="m_type-sogo"><span class="text-muted">搜狗</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-bing1" value="https://cn.bing.com/search?q=%s%" data-placeholder="微软Bing搜索"><label for="m_type-bing1"><span class="text-muted">Bing</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-sm" value="https://yz.m.sm.cn/s?q=%s%" data-placeholder="UC移动端搜索"><label for="m_type-sm"><span class="text-muted">神马</span></label></li></ul></div><div class="search-group group-c"><span class="type-text text-muted">工具</span><ul class="search-type"><li><input hidden type="radio" name="type2" data-page="home" id="m_type-br" value="https://seo.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="m_type-br"><span class="text-muted">权重查询</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-links" value="https://ahrefs.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="m_type-links"><span class="text-muted">友链检测</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-icp" value="https://icp.5118.com/domain/%s%" data-placeholder="请输入网址(不带https://)"><label for="m_type-icp"><span class="text-muted">备案查询</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-seo" value="https://seo.5118.com/%s%" data-placeholder="请输入网址(不带https://)"><label for="m_type-seo"><span class="text-muted">SEO查询</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-ciku" value="https://www.5118.com/seo/newrelated/%s%" data-placeholder="请输入关键词"><label for="m_type-ciku"><span class="text-muted">关键词挖掘</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-51key" value="https://so.5118.com/all/%s%" data-placeholder="请输入关键词"><label for="m_type-51key"><span class="text-muted">素材搜索</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-51kt" value="https://www.kt1.com/%s%" data-placeholder="请输入关键词"><label for="m_type-51kt"><span class="text-muted">大数据词云</span></label></li></ul></div><div class="search-group group-d"><span class="type-text text-muted">社区</span><ul class="search-type"><li><input hidden type="radio" name="type2" data-page="home" id="m_type-zhihu" value="https://www.zhihu.com/search?type=content&q=%s%" data-placeholder="知乎"><label for="m_type-zhihu"><span class="text-muted">知乎</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=%s%" data-placeholder="微信"><label for="m_type-wechat"><span class="text-muted">微信</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-weibo" value="https://s.weibo.com/weibo/%s%" data-placeholder="微博"><label for="m_type-weibo"><span class="text-muted">微博</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-douban" value="https://www.douban.com/search?q=%s%" data-placeholder="豆瓣"><label for="m_type-douban"><span class="text-muted">豆瓣</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-why" value="https://ask.seowhy.com/search/?q=%s%" data-placeholder="SEO问答社区"><label for="m_type-why"><span class="text-muted">搜外问答</span></label></li></ul></div><div class="search-group group-e"><span class="type-text text-muted">生活</span><ul class="search-type"><li><input hidden type="radio" name="type2" data-page="home" id="m_type-taobao1" value="https://s.taobao.com/search?q=%s%" data-placeholder="淘宝"><label for="m_type-taobao1"><span class="text-muted">淘宝</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-jd" value="https://search.jd.com/Search?keyword=%s%" data-placeholder="京东"><label for="m_type-jd"><span class="text-muted">京东</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-xiachufang" value="https://www.xiachufang.com/search/?keyword=%s%" data-placeholder="下厨房"><label for="m_type-xiachufang"><span class="text-muted">下厨房</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-xiangha" value="https://www.xiangha.com/so/?q=caipu&s=%s%" data-placeholder="香哈菜谱"><label for="m_type-xiangha"><span class="text-muted">香哈菜谱</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-12306" value="https://www.12306.cn/?%s%" data-placeholder="12306"><label for="m_type-12306"><span class="text-muted">12306</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-kd100" value="https://www.kuaidi100.com/?%s%" data-placeholder="快递100"><label for="m_type-kd100"><span class="text-muted">快递100</span></label></li><li><input hidden type="radio" name="type2" data-page="home" id="m_type-qunar" value="https://www.qunar.com/?%s%" data-placeholder="去哪儿"><label for="m_type-qunar"><span class="text-muted">去哪儿</span></label></li></ul></div>    </div>
+    <form action="https://telegeam.github.io/titokdh?s=" method="get" target="_blank" class="super-search-fm">
+        <input type="text" id="m_search-text" class="form-control smart-tips search-key" zhannei="" autocomplete="off" placeholder="输入关键字搜索" style="outline:0" data-status="true">
+        <button type="submit" id="btn_search"><i class="iconfont icon-search"></i></button>
+    </form> 
+    <div class="card search-smart-tips" style="display: none">
+        <ul></ul>
+    </div>
+</div>
+  
+                <div class="px-1 mb-3"><i class="text-xl iconfont icon-hot mr-1" style="color:#f1404b;"></i><span class="h6">热门推荐： </span></div>
+                <div class="mb-3">
+                                    </div>
+            </div>  
+            <div style="position: absolute;bottom: -40px;width: 100%;text-align: center;"><a href="javascript:" data-dismiss="modal"><i class="iconfont icon-close-circle icon-2x" style="color: #fff;"></i></a></div>
+        </div>
+    </div>  
+</div>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/popper.min.js@ver=4.0510" id="popper-js"></script>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/bootstrap.min.js@ver=4.0510" id="bootstrap-js"></script>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/theia-sticky-sidebar.js@ver=4.0510" id="sidebar-js"></script>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/lazyload.min.js@ver=4.0510" id="lazyload-js"></script>
+<script type="text/javascript" id="appjs-js-extra">
+/* <![CDATA[ */
+var theme = {"ajaxurl":"https:\/\/telegeam.github.io/titokdh\/wp-admin\/admin-ajax.php","uri":"https:\/\/telegeam.github.io/titokdh\/wp-content\/themes\/onenav","loginurl":"https:\/\/telegeam.github.io/titokdh\/wp-login.php?redirect_to=https%3A%2F%2Fjytk178.com%2Ftag%2Fchatgpt","sitesName":"Titokdh\u8de8\u5883\u5bfc\u822a\u7f51","addico":"https:\/\/telegeam.github.io/titokdh\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"","icourl":"https:\/\/api.iowen.cn\/favicon\/","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"1","lazyload":"1","minNav":"","loading":"","hotWords":"google","classColumns":" col-2a col-sm-2a col-md-2a col-lg-3a col-xl-5a col-xxl-6a ","apikey":"TWpBeU1USTJNemd4TWpZM0d6RS9oVTFGcmVYTmFjSGhpT1dodlZXWkZRWEV6YmsxcVduY3piWGxEZEVwUQ==","isHome":"","version":"4.0510"};
+var localize = {"liked":"\u60a8\u5df2\u7ecf\u8d5e\u8fc7\u4e86!","like":"\u8c22\u8c22\u70b9\u8d5e!","networkerror":"\u7f51\u7edc\u9519\u8bef --.","selectCategory":"\u4e3a\u4ec0\u4e48\u4e0d\u9009\u5206\u7c7b\u3002","addSuccess":"\u6dfb\u52a0\u6210\u529f\u3002","timeout":"\u8bbf\u95ee\u8d85\u65f6\uff0c\u8bf7\u518d\u8bd5\u8bd5\uff0c\u6216\u8005\u624b\u52a8\u586b\u5199\u3002","lightMode":"\u65e5\u95f4\u6a21\u5f0f","nightMode":"\u591c\u95f4\u6a21\u5f0f","editBtn":"\u7f16\u8f91","okBtn":"\u786e\u5b9a","urlExist":"\u8be5\u7f51\u5740\u5df2\u7ecf\u5b58\u5728\u4e86 --.","cancelBtn":"\u53d6\u6d88","successAlert":"\u6210\u529f","infoAlert":"\u4fe1\u606f","warningAlert":"\u8b66\u544a","errorAlert":"\u9519\u8bef","extractionCode":"\u7f51\u76d8\u63d0\u53d6\u7801\u5df2\u590d\u5236\uff0c\u70b9\u201c\u786e\u5b9a\u201d\u8fdb\u5165\u4e0b\u8f7d\u9875\u9762\u3002","wait":"\u8bf7\u7a0d\u5019","loading":"\u6b63\u5728\u5904\u7406\u8bf7\u7a0d\u540e...","userAgreement":"\u8bf7\u5148\u9605\u8bfb\u5e76\u540c\u610f\u7528\u6237\u534f\u8bae","reSend":"\u79d2\u540e\u91cd\u65b0\u53d1\u9001","weChatPay":"\u5fae\u4fe1\u652f\u4ed8","alipay":"\u652f\u4ed8\u5b9d","scanQRPay":"\u8bf7\u626b\u7801\u652f\u4ed8","payGoto":"\u652f\u4ed8\u6210\u529f\uff0c\u9875\u9762\u8df3\u8f6c\u4e2d"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/themes/onenav/js/app.min.js@ver=4.0510" id="appjs-js"></script>
+<script type="text/javascript" id="appjs-js-after">
+/* <![CDATA[ */
+/* <![CDATA[ */ 
+    $(document).ready(function(){if($("#search-text")[0]){$("#search-text").focus();}});
+    /* ]]]]><![CDATA[> */
+/* ]]> */
+</script>
+ 
+<!-- 自定义代码 -->
+<!-- end 自定义代码 -->
+</body>
+</html><!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 1379 objects (599 KB) from Redis using PhpRedis (v5.3.7).
+-->
